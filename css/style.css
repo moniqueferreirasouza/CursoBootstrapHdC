@@ -49,6 +49,7 @@ header, .navbar{
 .navbar-expanded-lg .navbar-nav .nav-link{
 	padding: 1rem 8rem;
 }
+
 /* Slider */
 
 .container-fluid{
@@ -91,6 +92,9 @@ header, .navbar{
 	background-color: #65daf9;
 
 }
+
+/* Sobre a empresa*/
+
 #about-area{
 	background-color: #f9f9f9;
 }
@@ -125,4 +129,19 @@ header, .navbar{
 	color: #65daf9;
 	margin-right: 15px;
 
+}
+
+/* Serviços */
+
+.service-box{
+	text-align: center;
+	margin-bottom: 50px;
+}
+.service-box i, service-box h4{
+	transition: .5s;
+}
+.service-box i{
+	font-size: 36px;
+	margin-bottom: 20px;
+	color: #444;
 }
