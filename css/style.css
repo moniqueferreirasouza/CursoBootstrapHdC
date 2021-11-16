@@ -69,7 +69,6 @@ header, .navbar{
 	font-weight: 300;
 	margin-bottom: 100px;
 	color: #fff;
-	font-style: bold;
 }
 .main-btn{
 	background-color: #65daf9;
@@ -90,5 +89,40 @@ header, .navbar{
 }
 .carousel-indicators .active{
 	background-color: #65daf9;
+
+}
+#about-area{
+	background-color: #f9f9f9;
+}
+.main-title{
+	color: #444;
+	margin: 0 0 65px 0;
+	font-size: 40px;
+	text-align: center;
+}
+.main-title::after{
+	content: "";
+	border-top: 2px solid #333;
+	width: 15%;
+	position: absolute;
+	top: 60px;
+	left: 42.5%;
+}
+.about-title{
+	font-size: 17px;
+	color: #444;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+#about-list{
+	list-style: none;
+	padding-left: 0;
+}
+#about-list li{
+	line-height: 30px;
+}
+#about-list i{
+	color: #65daf9;
+	margin-right: 15px;
 
 }
